@@ -10,8 +10,6 @@ const reservations = jsonString.reservations;
 const campsites = jsonString.campsites;
 let newMap = API.createAvailabilityMap(new Map(), reservations);
 
-console.log(API.storeCampsitesWithOneRes([], newMap, reservations));
-
 describe('campspot test suite', function () {
     it('should have a test', function () {
         expect(true).to.equal(true)
