@@ -12,7 +12,8 @@
   "scripts": {
     "start": "node gapRule.js",
     "test": "mocha './**/*.test.js'",
-    "docker": "docker build -t daria/campspot && docker run daria/campspot"
+    "docker:build": "docker build -t daria/campspot .",
+    "docker:run": "docker run daria/campspot"
   },
   "repository": {
     "type": "git",
