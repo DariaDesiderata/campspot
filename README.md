@@ -2,7 +2,8 @@
 
 ### To start the project with Docker
 1. Install Docker
-2. Clone this repo and `npm docker`
+2. Clone this repo and `npm docker:build`
+3. `npm docker:run`
 
 ### To start the project without Docker
 1. Install Node v.10+
