@@ -1,0 +1,29 @@
+{
+  "name": "campspot",
+  "version": "1.0.0",
+  "description": "campspot assignmnent",
+  "main": "gapRule.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "moment": "^2.23.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node gapRule.js",
+    "test": "mocha './**/*.test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DariaDesiderata/campspot.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Daria Calwell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DariaDesiderata/campspot/issues"
+  },
+  "homepage": "https://github.com/DariaDesiderata/campspot#readme"
+}
