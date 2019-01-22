@@ -11,9 +11,6 @@ const campsites = jsonString.campsites;
 let newMap = API.createAvailabilityMap(new Map(), reservations);
 
 describe('campspot test suite', function () {
-    it('should have a test', function () {
-        expect(true).to.equal(true)
-    });
     it('should return an array of campsites with no reservations', function () {
         expect(API.hasNoReservations(campsites, reservations)).to.deep.equal([{
             "id": 5,
