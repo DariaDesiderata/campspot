@@ -12,11 +12,11 @@ For the last scenario, we assume there are no other restrictions, and mark it as
 
 ### To start the project with Docker
 1. Install Docker
-2. Clone this repo and `npm docker:build`
+2. Clone this repo and run `npm docker:build` from CLI
 3. `npm docker:run`
 
 ### To start the project without Docker
 1. Install Node v.10+
-2. run `npm i` and `npm start`
-3. run tests with  `npm test` (**note: tests will only execute in Node environment)
+2. Clone this repo and run `npm i` and `npm start` from CLI
+3. To run tests - run `npm test` from CLI (**note: tests will only execute in Node environment)
 
