@@ -18,6 +18,5 @@ For the last scenario, we assume there are no other restrictions, and mark it as
 ### To start the project without Docker
 1. Install Node v.10+
 2. run `npm i` and `npm start`
+3. run tests with  `npm test` (**note: tests will only execute in Node environment)
 
-### To run tests
-1. `npm i` and `npm test`
